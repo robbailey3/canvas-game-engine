@@ -1,1 +1,3 @@
-import './styles/styles.scss';
+const a = 'foo';
+
+export { a };
