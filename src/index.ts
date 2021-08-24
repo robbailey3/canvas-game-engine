@@ -1,3 +1,1 @@
-const a = 'foo';
-
-export { a };
+export * from './packages';
