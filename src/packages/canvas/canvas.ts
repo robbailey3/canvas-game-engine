@@ -27,4 +27,20 @@ export class Canvas {
 	public clear(): void {
 		this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 	}
+
+	public rect(
+		x: number,
+		y: number,
+		width: number,
+		height: number,
+		rotation = 0,
+		fillColor = this.config.fillColor
+	): void {
+		this.ctx.save();
+		this.ctx.fillStyle = fillColor;
+		this.ctx.translate(x + width / 2, y + height / 2);
+		this.ctx.rotate(rotation);
+		this.ctx.fillRect(-width / 2, -height / 2, width, height);
+		this.ctx.restore();
+	}
 }
