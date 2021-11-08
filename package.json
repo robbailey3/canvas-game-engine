@@ -1,5 +1,5 @@
 {
-	"author": "Rob Bailey (robbailey3)",
+	"author": "Rob Bailey (rob_bailey3)",
 	"dependencies": {},
 	"description": "",
 	"devDependencies": {
@@ -21,7 +21,7 @@
 	},
 	"license": "ISC",
 	"main": "dist/index.js",
-	"name": "@robbailey3/canvas-game-engine",
+	"name": "@rob_bailey3/canvas-game-engine",
 	"scripts": {
 		"build": "webpack --config webpack.prod.js",
 		"postbuild": "tsc -p tsconfig.json --emitDeclarationOnly --declaration --declarationDir ./dist/@types --skipLibCheck",
