@@ -1,6 +1,8 @@
 {
 	"author": "Rob Bailey (robbailey3)",
-	"dependencies": {},
+	"dependencies": {
+		"rxjs": "^7.4.0"
+	},
 	"description": "",
 	"devDependencies": {
 		"@types/jest": "^27.0.1",
@@ -20,7 +22,7 @@
 		"webpack-merge": "^5.8.0"
 	},
 	"license": "ISC",
-	"main": "dist/index.js",
+	"main": "dist/main.js",
 	"name": "@robbailey3/canvas-game-engine",
 	"scripts": {
 		"build": "webpack --config webpack.prod.js",

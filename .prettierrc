@@ -1,4 +1,5 @@
 {
 	"endOfLine": "auto",
-	"trailingComma": "none"
+	"trailingComma": "none",
+	"tabSize": 2
 }
