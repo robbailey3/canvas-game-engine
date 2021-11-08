@@ -30,5 +30,5 @@
 		"serve": "webpack serve --open --config webpack.dev.js",
 		"test": "jest"
 	},
-	"version": "1.0.0"
+	"version": "0.0.1"
 }
